@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title> Clock | Exp </title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #fff;
+            font-family: 'Barlow Condensed', sans-serif;
+        }
+
+        nav {
+            background-color: #f0f5f1;
+            height: 65px;
+            width: 100%;
+            box-shadow: 5px 0px 5px #888;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #adadad;
+            padding: 0px 15px;
+            margin-top: -18px;
+            font-size: 20px;
+
+        }
+
+        .navbar a:hover {
+            color: #333;
+        }
+
+        .logo img {
+            width: 43px;
+            height: 43px;
+            border-radius: 50%;
+            float: left;
+            padding: 10px;
+        }
+
+        .logo h2 {
+            padding-top: 15px;
+        }
+
+        .clock {
+            float: right;
+            margin-right: 100px;
+            margin-top: -43px;
+            font-size: 25px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="logo">
+                <h2>FTN </h2>
+            </div>
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Skills</a>
+            </div>
+            <div class="clock">
+                <h1 class="jam">00:00:00</h1>
+            </div>
+        </div>
+    </nav>
+
+<script src="script.js"></script>
+</body>
+</html>
