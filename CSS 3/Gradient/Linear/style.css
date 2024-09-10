@@ -1,0 +1,13 @@
+div.satu {
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(to left bottom,red,blue) /*background-image, linear gradient, (arah,warna awal,warna akhir)*/;
+    margin: 50px auto;
+}
+
+div.dua {
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(to right,green 60%,purple 80%) /*background-image, linear gradient, (arah,warna awal (color stop ..%),warna akhir (color stop ..%))*/;
+    margin: 50px auto;
+}
