@@ -1,0 +1,168 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #eee;
+    line-height: 1.50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* kolom 1 */
+
+.container1 {
+    width: 800px;
+    margin: 50px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+}
+
+.kolom-utama {
+    flex: 3;
+    order: 2;
+}
+
+.sidebar-start {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-end {
+    flex: 1;
+    order: 3;
+}
+
+/* Akhir Kolom 1 */
+
+/* Features 2 */
+
+.container2 {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.layanan {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.layanan.satu {
+    background-color: rgb(255, 101, 101);
+}
+
+.layanan.dua {
+    background-color: rgb(103, 103, 255);
+}
+
+.layanan.tiga {
+    background-color: rgb(154, 255, 53);
+}
+
+/* Akhir Features 2 */
+
+/* Gallery */
+
+.container3 {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.thumbnail {
+    width: 50%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+/* Akhir Gallery */
+
+/* Card */
+
+.container4 {
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 470px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card .header {
+    background-color: grey;
+    height: 150px;
+}
+
+.card .content {
+    text-align: center;
+}
+
+/* Akhir Card */
+
+/* Centering */
+
+.container5 {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px solid black;
+    display: flex;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    margin: auto;
+    display: flex;
+}
+
+.kotak span {
+    margin: auto;
+}
+
+
+
+/* Responsive */
+@media( min-width: 600px ) { 
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .layanan {
+        width: 30%;
+    }
+
+    .container3 {
+        justify-content: center;
+    }
+
+    .thumbnail {
+        width: 30%;
+    }
+
+    .thumbnail img {
+        width: 100%;
+    }
+
+    .container4 {
+        flex-wrap: nowrap;
+    }
+}

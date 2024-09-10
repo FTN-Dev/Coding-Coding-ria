@@ -1,0 +1,52 @@
+.container {
+    width: 800px;
+    height: 300px;
+    border: 3px solid #666;
+    box-sizing: border-box;
+    margin: 30px auto;
+    display: flex;
+    justify-content: none;
+}
+
+.container div {
+    background-color: salmon;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin: 10px;
+}
+
+    /* flex-direction : 
+    column
+    column-reverse
+    row
+    row-reverse; */
+
+    /* flex-wrap: 
+    wrap
+    nowrap
+    wrap-reverse
+    row-wrap; */
+
+    /* justify-content:
+    center
+    flex-start
+    flex-end
+    space-around
+    space-between
+    space-evenly; */
+
+    /* align-items: 
+    center
+    flex-start
+    flex-end
+    stretch
+    baseline; */
+
+    /* align-content: 
+    center
+    space-between
+    space-around
+    stretch
+    flex-start
+    flex-end */
