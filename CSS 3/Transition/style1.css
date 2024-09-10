@@ -1,0 +1,95 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: 1s;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kotak1 {
+    transition: all 3s ease;
+    /* menentukan efek transisi dengan awal yang lambat, kemudian cepat, kemudian berakhir perlahan (ini adalah default) */
+}
+.kotak2 {
+    transition: all 3s ease-in;
+    /* menentukan efek transisi dengan awal yang lambat */
+}
+.kotak3 {
+    transition: all 3s ease-out;
+    /* menentukan efek transisi dengan akhir yang lambat */
+}
+.kotak4 {
+    transition: all 3s ease-in-out;
+    /* menentukan efek transisi dengan awal dan akhir yang lambat */
+}
+.kotak5 {
+    transition: all 3s linear;
+    /* menentukan efek transisi dengan kecepatan yang sama dari awal sampai akhir */
+}
+.kotak6 {
+    transition: all 3s cubic-bezier(0.6,-0.53, 0, 0.68);
+    /* memungkinkan untuk menentukan nilai-nilai Anda sendiri dalam fungsi kubik-bezier */
+}
+
+.container:hover .kotak {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: purple;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+    border: 5px solid black;
+}
+
+
+
+
+.kotak100 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: margin-left 3s, transform 3s 2s, background-color 1s 3s;
+
+}
+
+.container2:hover .kotak100 {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: purple;
+}
+
+.container2 {
+    width: 900px;
+    margin: 50px auto;
+    border: 5px solid black;
+}
+
+
+/*
+    Transition 
+
+    [Property]
+    [Duration]
+    [Fungsi]
+    [Delay]
+*/
+
+/* 
+    timing function element
+
+    ease (default)
+    ease-in
+    ease-out
+    ease-in-out
+    linear
+    cubic-bezier(w,x,y,z)
+*/
