@@ -1,0 +1,230 @@
+/* Font */
+@font-face {
+    font-family: 'opensans';
+    src: url(font/static/OpenSans_Condensed/OpenSans_Condensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'monserrat';
+    src: url(font/static/Montserrat/Montserrat-Regular.ttf);
+}
+
+/* CSS */
+
+body {
+    height: 4000px;
+    font-family: 'monserrat';
+}
+
+/* Sidebar1 */
+
+#sidebar {
+    background-color: #212529;
+    height: 100vh;
+    width: 270px;
+    left: -9999px;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+}
+
+#sidebar:target {
+    animation: sidebarout 0.6s forwards;
+}
+
+.container1 {
+    border: 1px solid #212529;
+    height: 98vh;
+    width: 260px;
+    margin: auto;
+    padding: 0 5px;
+}
+
+/* Logo */
+
+.logo {
+    width: 100%;
+    border-bottom: 1px solid #585B5E;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+}
+
+.logo h4 {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Menu Sidebar */
+
+.menu {
+    padding-top: 20px;
+}
+
+.menu ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+.menu ul li{
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menu li a i {
+    padding-right: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.menu li:hover {
+    background-color: #940036;
+    border-radius: 5px;
+}
+
+/* Medsos */
+
+.medsos {
+    border-top: 1px solid #585B5E;
+    position: absolute;
+    bottom: 10px;
+    right: 53px;
+}
+
+.medsos ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.medsos ul {
+    list-style-type: none;
+    padding-left: 0rem;
+    padding-top: 15px;
+}
+
+.fb2 {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+/* Sidebar2 */
+
+#sidebar2 {
+    background-color: #212529;
+    height: 100vh;
+    width: 70px;
+    box-sizing: border-box;
+    position: fixed;
+    overflow: hidden;
+}
+
+/* Logos */
+
+.logos {
+    border: 1px solid #212529;
+    padding: 5px;
+}
+
+.lapislogo {
+    padding: px;
+    border-bottom: 1px solid #585B5E;
+}
+
+.logos a img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+/* Menu Sidebar */
+
+.menus {
+    padding-top: 10px;
+}
+
+.menus ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+.menus ul li{
+    font-size: 23px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menus ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menus ul li:hover {
+    background-color: #940036;
+}
+
+.menus ul li a p {
+    margin: 0;
+    font-size: 10px;
+}
+
+/* sosmed */
+
+.sosmed {
+    border: 1px solid #212529;
+    width: 68px;
+    height: 150px;
+    padding: 5px;
+    position: absolute;
+    box-sizing: border-box;
+    right: 1px;
+    bottom: 0px;
+}
+
+.lapissosmed {
+    border-top: 1px solid #585B5E;
+}
+
+.lapissosmed ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+}
+
+.lapissosmed ul {
+    list-style-type: none;
+    padding-left: 0rem;
+    padding-top: 15px;
+}
+
+/* Keyframes */
+
+@keyframes sidebarout {
+    0%{
+        left: -500px;
+    }
+
+    100%{
+        left: 0;
+        z-index: 90;
+    }
+}
