@@ -1,0 +1,26 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #ddd;
+}
+
+.container {
+    margin: 50px auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 100px 25%;
+    grid-auto-flow: column;
+    grid-auto-columns: 100px 25%;
+}
+
+.item {
+    background-color: rgb(54, 200, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: rgb(230, 62, 221);
+}
+

@@ -1,0 +1,35 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #ddd;
+}
+
+.container {
+    margin: 50px auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 400px) 1fr;
+}
+
+.item {
+    background-color: rgb(54, 200, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: rgb(230, 62, 221);
+}
+
+/* repeat() : menentukan ukuran grid track secara berulang */
+
+/* min & max content : menentukan seberapa besar ukuran grid track tergantung pada elemennya
+min-content : mencari kata terpanjang sebagai ukuran grid track
+max-content : semua kata digunakan untuk ukuran grid track */
+
+/* auto fill & fit : digunakan pada repeat(). menentukan jumlah item untuk berada pada grid track
+auto-fill : membuat parent selalu memberi ruang untuk child masuk
+auto-fit : membuat child tidak bisa mengisi tempat kosong */
+
+/* minmax() : menentukan ukuran minimal dan maksimal grid track */
