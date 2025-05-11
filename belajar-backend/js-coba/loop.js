@@ -7,3 +7,5 @@ while (i <= 20) {
     console.log('angka akan ditambah ', i)
     i++
 }
+
+// blablabla
