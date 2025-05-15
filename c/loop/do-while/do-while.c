@@ -21,22 +21,22 @@ int main() {
 
 // Creative Activity
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
+// int main() {
 
-    int index = 0;
-    int jawaban;
+//     int index = 0;
+//     int jawaban;
 
-    printf("\"Aku suka C Part 3\"\n");
-    printf("Input angka untuk berapa kali kamu ingin loop kalimat diatas: ");
-    scanf("%d", &jawaban);
+//     printf("\"Aku suka C Part 3\"\n");
+//     printf("Input angka untuk berapa kali kamu ingin loop kalimat diatas: ");
+//     scanf("%d", &jawaban);
 
-    do {
+//     do {
 
-        printf("Aku Suka C Part 3 \n");
-        index++;
+//         printf("Aku Suka C Part 3 \n");
+//         index++;
 
-    } while( index < jawaban );
+//     } while( index < jawaban );
 
-}
+// }
