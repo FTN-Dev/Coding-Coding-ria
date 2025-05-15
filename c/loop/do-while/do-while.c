@@ -1,18 +1,18 @@
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
+int main() {
 
-//     // int i;
-//     int i = 0;
+    // int i;
+    int i = 0;
 
-//     do {
+    do {
 
-//         printf("Aku suka C Part 3 \n");
-//         i++;
+        printf("Aku suka C Part 3 \n");
+        i++;
 
-//     } while (i < 3);
-//     return 0;
-// }
+    } while (i < 3);
+    return 0;
+}
 
 // Ya, ternyata masih sama, i harus dideklarasi dulu sebagai berapa. Tidak hanya int i;
 // Jangan lupa i++, gua lupa terus jir😹
