@@ -6,6 +6,7 @@ int main() {
 
     printf("Loop ini menggunakan Forever Loop For\n");
     printf("Loop ini hanya bisa dihentikan menggunakan ^C (Control + C)\n");
+    
     for(;;) {
 
     printf("Tunggu ^C ...\n");
