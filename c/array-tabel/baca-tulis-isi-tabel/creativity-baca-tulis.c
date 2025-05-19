@@ -21,7 +21,8 @@ int main() {
             printf("%d,", Tab[i]);
         } 
         if ( i == 4 ) {
-            printf("%d", Tab[4]);
+            i = 4;
+            printf("%d", Tab[i]);
         }
         // printf("%d,", Tab[i]);
 
