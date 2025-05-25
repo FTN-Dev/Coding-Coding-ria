@@ -1,3 +1,5 @@
+// Creative Acitivity, sorting from minimum
+
 #include<stdio.h>
 int main(){
     
@@ -9,7 +11,7 @@ int main(){
     for (int i = 0; i<9; i++ ){
         max = i;
         for (k= i+1 ;k< 10; k++)  {
-            if (Tab[k]> Tab[max]) {
+            if (Tab[k] < Tab[max]) { //tinggal diubah disini jir
                 max=k;
             }
         } 
@@ -27,4 +29,4 @@ int main(){
     return 0;
 }
 
-// kurang paham jir untuk logikanya
+// honestly, bagian yang ini kurang paham
