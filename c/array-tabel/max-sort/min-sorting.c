@@ -28,5 +28,3 @@ int main(){
 
     return 0;
 }
-
-// honestly, bagian yang ini kurang paham
